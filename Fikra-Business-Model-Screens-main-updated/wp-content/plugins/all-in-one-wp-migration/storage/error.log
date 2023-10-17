@@ -1,0 +1,12 @@
+Oct 16 2023 14:02:07
+{"type":8192,"message":"trim(): Passing null to parameter #1 ($string) of type string is deprecated","file":"\/var\/www\/fikra\/wp-content\/plugins\/antihacker\/antihacker.php","line":791}
+
+Oct 17 2023 00:30:13
+{"type":8192,"message":"trim(): Passing null to parameter #1 ($string) of type string is deprecated","file":"\/var\/www\/fikra\/wp-content\/plugins\/antihacker\/antihacker.php","line":791}
+
+Oct 17 2023 00:30:36
+{"type":8192,"message":"trim(): Passing null to parameter #1 ($string) of type string is deprecated","file":"\/var\/www\/fikra\/wp-content\/plugins\/antihacker\/antihacker.php","line":791}
+
+Oct 17 2023 00:32:26
+{"type":8192,"message":"trim(): Passing null to parameter #1 ($string) of type string is deprecated","file":"\/var\/www\/fikra\/wp-content\/plugins\/antihacker\/antihacker.php","line":791}
+

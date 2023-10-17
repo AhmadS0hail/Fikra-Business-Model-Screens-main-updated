@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+* {
+	font-family: "Azer";
+}
+
+.bm_img {
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.br-test {
+	border: 2px solid red;
+}
+
+.vue-dropdown-item.highlighted{
+	background-color: #f0f0f0;
+	border-left:5px solid #0a4b78;
+}
+
+.vue-dropdown-item.selected.highlighted {
+	background-color:  rgba(42, 100, 144  ) ;
+	color: #fff;
+}
+.progressbar li:before{
+	width: 24px !important;
+	border-width: 2px !important;
+	height: 24px !important;
+}
+
+.progressbar li:after {
+	height: 8px !important;
+	top: 9px !important;
+	border-radius: 20px;
+}
+
+.result-templates > .result-template{
+	display: none !important;
+}
+.result-templates > .result-template:nth-child(1){
+	display: flex !important;
+}
+.result-templates > .result-template:nth-child(2){
+	display: flex !important;
+}
+.result-templates > .result-template:nth-child(3){
+	display: flex !important;
+}
+.result-templates > .result-template:nth-child(4){
+	display: flex !important;
+}
+.result-templates.show-all-templates > .result-template{
+	display: flex !important;
+}
+
+.show-all-templates .moretemplates{
+	display: none !important;
+}
+.mcd{
+	display: flex;
+}
+.mcd span{
+	display: block;
+	width: 16px;
+}
+textarea{
+	min-height: 200px;
+}
+.w-100{
+	width: 100%;
+}
+.loginBtn-d{
+	display: flex;
+}
+.loginBtn-m{
+	display: none;
+}
+@media(max-width: 640px){
+	#mobile-menu-2 ul{
+		padding: 0 20px;
+	}
+	.mmenu a:not(.loginBtn){
+		padding: 10px;
+	}
+	.mmenu{
+		flex-direction: column-reverse !important;
+	}
+	.loginBtn-d{
+		display: none;
+	}
+	.loginBtn-m{
+		display: block;
+	}
+
+}
